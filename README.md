@@ -1,32 +1,87 @@
-# Mad Sumo Rider
+Three-in-One Game
+📌 Description
 
-A Unity 3D racing game project featuring sumo wrestlers in vehicles.
+This Unity project is a 3-in-1 mini game collection created as part of the Final Exam (CS3434 / CSX4606 / IT4452 / ITX4606 Introduction to Game Development).
 
-## Project Structure
+It combines three separate games into a single project, accessible from a Main Menu:
 
-- **Assets/Challenge 1/**: Challenge 1 specific assets and scripts
-- **Assets/Course Library/**: Course assets including obstacles, pickups, and vehicles
-- **Assets/Scripts/**: Game scripts and components
-- **Assets/Scenes/**: Unity scene files
-- **Assets/UI/**: User interface elements
+Mad Driver – Drive a car down the road while avoiding obstacles.
 
-## Requirements
+Fly Like a Bird – Fly a plane through the sky, tilting up and down.
 
-- Unity 2022.3.25f1 or later
-- Input System package
-- TextMeshPro package
+I’m a Sumo and a Ball – Physics-based sumo arena where the player ball must push enemies off the platform.
 
-## Getting Started
+A Pause Menu is available in each game (press Esc) with options to:
 
-1. Open the project in Unity
-2. Load the main scene from Assets/Scenes/
-3. Press Play to start the game
+Resume
 
-## Controls
+Restart
 
-- Use the Input System for player controls
-- Check InputSystem_Actions.inputactions for input mappings
+Return to Main Menu
 
-## License
+🛠️ Features
 
-This project is licensed under the Apache License 2.0.
+Main Menu to choose between games.
+
+In-Game Pause Menu (Resume, Restart, Main Menu).
+
+Car driving with physics (Mad Driver).
+
+Plane flying controls (Fly Like a Bird).
+
+Sumo-ball physics battle with enemies (I’m a Sumo and a Ball).
+
+Exit button to close the game.
+
+📂 Project Structure
+Assets/
+ ├── Scenes/
+ │    ├── MainMenu.unity
+ │    ├── MadDriver.unity
+ │    ├── FlyBird.unity
+ │    ├── Sumo.unity
+ ├── Scripts/
+ │    ├── SceneLoader.cs
+ │    ├── PauseMenu.cs
+ │    ├── CarController.cs
+ │    ├── CameraFollow.cs
+ │    ├── PlayerControllerX.cs   (Fly Like a Bird)
+ │    ├── FollowPlayerX.cs       (Fly Like a Bird)
+ │    ├── PropellerController.cs (Fly Like a Bird)
+ │    ├── SumoPlayer.cs
+ │    ├── SumoEnemy.cs
+ │    ├── FallZone.cs
+ │    └── SumoWinCheck.cs
+ └── Prefabs/
+      ├── PauseCanvas.prefab
+      └── UI elements
+
+▶️ How to Play
+
+Launch the game from the Main Menu.
+
+Choose one of the three games:
+
+Mad Driver – Use WASD / Arrow Keys to drive.
+
+Fly Like a Bird – Use W/S or Up/Down arrows to tilt, auto-forward flight.
+
+Sumo – Use WASD / Arrow Keys to roll and push enemies.
+
+Press Esc to open the Pause Menu.
+
+Win/Lose Conditions:
+
+Car/Plane → play for survival.
+
+Sumo → knock enemies off, don’t fall yourself.
+
+⌨️ Controls
+
+WASD / Arrow Keys → Movement
+
+Esc → Pause Menu
+
+👨‍💻 Author
+
+Humam Khurram (Student ID: 6611680)
