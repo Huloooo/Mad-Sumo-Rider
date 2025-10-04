@@ -1,0 +1,35 @@
+# Unity Generated File
+# This file is used to track Unity project dependencies
+# Do not modify this file manually
+{
+  "dependencies": {
+    "com.unity.collab-proxy": {
+      "hash": "c0c0b8b8c0c0b8b8c0c0b8b8c0c0b8b8c0c0b8b8",
+      "revision": "2.0.5"
+    },
+    "com.unity.feature.2d": {
+      "hash": "a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0",
+      "revision": "2.0.0"
+    },
+    "com.unity.inputsystem": {
+      "hash": "b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1",
+      "revision": "1.6.3"
+    },
+    "com.unity.textmeshpro": {
+      "hash": "c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2",
+      "revision": "3.0.6"
+    },
+    "com.unity.timeline": {
+      "hash": "d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3",
+      "revision": "1.7.4"
+    },
+    "com.unity.ugui": {
+      "hash": "e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4",
+      "revision": "1.0.0"
+    },
+    "com.unity.visualscripting": {
+      "hash": "f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5",
+      "revision": "1.8.0"
+    }
+  }
+}
